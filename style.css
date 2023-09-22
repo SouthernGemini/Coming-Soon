@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    color: #fff3a8;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#search {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .container {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'BiolilbertRegular';
+    font-size: 80px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-family: 'BiolilbertRegular';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+  }
+
+  /*Timer goes here*/
+  .timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cd_container .time {
+    font-weight: bold;
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+    border: 4px solid #59ec9e;
+    border-radius: 1rem;
+    margin: 0 1rem;
+  }
+
+  .cd_container span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ccc
+  }
+
+.sm a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #59ec9e;
+  line-height: 60px;
+  color: #100d04;
+  font-size: 24px;
+  border-radius: 50%;
+  margin: 0 10px;
+  opacity: .7;
+  transition: .3s linear;
+}
+
+.sm a:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.info {
+  position: relative;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+#email {
+  width: 350px;
+  height: 35px;
+  border-bottom: 3px solid #59ec9e;
+  background-color: transparent;
+  color: #fff3a8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#btn {
+  width: 100px;
+  height: 35px;
+  border: 3px solid #59ec9e;
+  background-color: transparent;
+  color: #fff3a8;
+  font-size: 24px;
+  font-weight: bold;
+}
